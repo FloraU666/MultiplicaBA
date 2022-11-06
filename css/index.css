@@ -1,11 +1,14 @@
-* {
-    padding: 0;
-}
+
 
 body 
 {
     background: rgb(243, 238, 195);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicio { 
+  background-image: url(../imagenes/wallpaper1.jpg);
+
 }
 
 nav {
@@ -17,7 +20,8 @@ nav ul {
     margin: 0px;
     padding: 5px 0px 5px 30px;
   }
-  nav li {
+
+  nav ul li {
     display: inline;
     margin-right: 20px;
   }
@@ -27,12 +31,21 @@ nav ul {
     color: white;
   }
 
+  a:hover {
+    color: rgb(250, 220, 47);
+  }
+
 .principal {
     border: 2px solid;
     border-color: rgb(250, 220, 47);
-    padding: 30px;
+    padding: 10px;
 }
 
+
+
 footer { 
-    background-color: rgb(133, 133, 133);
+    background-color: rgb(59, 59, 59);
+    color: white;
+    margin-top: 10px;
+    padding: 30px;
 }
